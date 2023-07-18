@@ -1,8 +1,8 @@
 # MT-Pro 
 The MT-Pro Code is derived from the [RtF Transciphering Framework](https://github.com/KAIST-CryptLab/RtF-Transciphering). To start the code use the go file in [examples/ckks_fv](./Code/examples/ckks_fv). The Code might be adjusted from [ckks_fv/main.go](./Code/ckks_fv/main.go). 
-When directly running adjust the paths to database and where to store encrypted templates. 
-
-Below here the contents of the RTF Transciphering Framework README.md file are stated: 
+When directly running - first adjust all the paths to your needs. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Below here the contents of the [RTF Transciphering Framework README.md](https://github.com/KAIST-CryptLab/RtF-Transciphering/blob/master/README.md) file are stated: 
 
 # RtF Transciphering Framework
 This is an implementation of the RtF transciphering framework along with the HERA cipher (proposed in [Transciphering Framework for Approximate Homomorphic Encryption](https://eprint.iacr.org/2020/1335)) and the Rubato cipher (proposed in [Rubato: Noisy Ciphers for Approximate Homomorphic Encryption](https://eprint.iacr.org/2022/537)) using the `lattigo` library.
