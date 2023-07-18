@@ -1,6 +1,6 @@
 # MT-Pro 
-The MT-Pro Code is derived from the RtF Transciphering Framework. To start the code use the go file in /examples/ckks_fv. The Code might be adjusted from /ckks_fv/main.go. When directly running adjust the paths to database and where to store encrypted templates. 
-
+The MT-Pro Code is derived from the [RtF Transciphering Framework](https://github.com/KAIST-CryptLab/RtF-Transciphering). To start the code use the go file in [examples/ckks_fv](./Code/examples/ckks_fv). The Code might be adjusted from [ckks_fv/main.go](./Code/ckks_fv/main.go). 
+When directly running adjust the paths to database and where to store encrypted templates. 
 
 Below here the contents of the RTF Transciphering Framework README.md file are stated: 
 
@@ -14,7 +14,7 @@ We implement the hybrid framework in [ckks_fv](./Code/ckks_fv), which contains t
 - Halfboot operation
 - Evaluation of the HERA cipher in the FV scheme
 
-An example of finding modulus switching parameter in the RtF framework is given in [examples/ckks_fv](./examples/ckks_fv).
+An example of finding modulus switching parameter in the RtF framework is given in [examples/ckks_fv](./Code/examples/ckks_fv).
 
 ## Benchmark
 You can run the benchmark of RtF transciphering framework along with HERA or Rubato using [RtF_bench_test.go](./Code/ckks_fv/RtF_bench_test.go).
